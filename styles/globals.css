@@ -1,0 +1,45 @@
+/* styles/globals.css */
+.terminal {
+  width: 800px;
+  height: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.prompt {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.execute-button {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.output {
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.history {
+  margin-top: 20px;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+}
+
